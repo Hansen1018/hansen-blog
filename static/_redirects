@@ -1,0 +1,3 @@
+# Cloudflare Pages — serve our custom 404 page for any missing route.
+# Hugo copies this file from /static to /public unchanged.
+/*    /404.html    404

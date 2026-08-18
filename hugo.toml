@@ -1,0 +1,85 @@
+baseURL = 'https://blog.hansendong.top/'
+title = "Hansen's Blog"
+theme = 'lumenveil'
+
+locale = 'zh-cn'
+defaultContentLanguage = 'zh-cn'
+hasCJKLanguage = true
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 9
+
+[permalinks]
+  archives = '/archives/:year/:month/:slug'
+  page = '/:slug/'
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+  section = ['HTML', 'RSS']
+  taxonomy = ['HTML', 'RSS']
+  term = ['HTML', 'RSS']
+
+[outputFormats.JSON]
+  mediaType = 'application/json'
+  baseName = 'index'
+  isPlainText = true
+  notAlternative = true
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    guessSyntax = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
+
+[params]
+  description = '技术、生活与长期思考的笔记。'
+  author = 'Hansen'
+  initial = 'H'
+  avatar = '/images/avatar.png?v=2'
+  role = 'Blogger · Developer'
+  tagline = 'Be yourself; everyone else is already taken. - Oscar Wilde'
+  location = '深圳 📍'
+  status = '持续写作中 ✍️'
+  email = 'hansendong1018@gmail.com'
+  github = 'https://github.com/Hansen1018'
+  twitter = 'https://x.com/Hansen1018'
+  telegram = 'Hansen1018'
+  since = 2013
+  copyright = 'CC BY-NC-ND 4.0 DEED'
+  copyright_url = 'https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans'
+  mainSections = ['archives']
+
+[params.comments]
+  service = 'artalk'
+  server = 'https://artalk.hansendong.top'
+  site = "Hansen's Blog"
+
+[menus]
+  [[menus.main]]
+    name = '首页'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    name = '文章'
+    pageRef = '/archives'
+    weight = 20
+  [[menus.main]]
+    name = '分类'
+    pageRef = '/categories'
+    weight = 30
+  [[menus.main]]
+    name = '标签'
+    pageRef = '/tags'
+    weight = 40
+  [[menus.main]]
+    name = '关于'
+    url = '/about/'
+    weight = 50

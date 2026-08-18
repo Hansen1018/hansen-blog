@@ -1,0 +1,24 @@
+# Hugo build output
+/public/
+/resources/
+
+# Theme (separate repo, symlinked)
+/themes/
+
+# Hugo build lock
+/.hugo_build.lock
+
+# Like server runtime
+/likes.json
+/likes.json.bak
+
+# Watch log
+/watch.log
+
+# OS / editor cruft
+.DS_Store
+*.swp
+*.tmp
+*~
+.idea/
+.vscode/
