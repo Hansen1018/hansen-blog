@@ -5,7 +5,7 @@ slug: hansen-web-migration
 cover: cover.jpg
 cover_caption: 手稿 → 落地（hansen-web 迁移 Next.js 前后）
 tags: [hansen-web, nextjs, react, typescript, refactor, deploy]
-categories: [archives]
+categories: [webdev]
 summary: |
   这是 hansen-web 从 Vue 3 + Vite + vite-ssg 跳到 Next.js 16 App Router + React 19 + TypeScript
   的栈迁移手记。中间穿插了一次把站点整个干掉的 deploy 事故。串在一起的，不是两件。
