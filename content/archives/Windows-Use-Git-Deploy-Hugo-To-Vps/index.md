@@ -12,7 +12,7 @@ tags = [
     "随笔",
 ]
 categories = [
-    "technical",
+    "webdev",
 ]
 
 +++

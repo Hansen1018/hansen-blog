@@ -1,0 +1,35 @@
+<article class="post-card">
+  <a class="post-card__visual" href="{{ .RelPermalink }}" aria-label="阅读《{{ .LinkTitle }}》">
+    {{ $cover := "" }}
+    {{ with .Params.cover }}
+      {{ $img := $.Resources.GetMatch (printf "%s" .) }}
+      {{ if $img }}
+        {{ $cover = $img.RelPermalink }}
+      {{ else }}
+        {{ $cover = . | relURL }}
+      {{ end }}
+    {{ end }}
+    {{ if $cover }}
+      <img src="{{ $cover }}" alt="" loading="lazy">
+    {{ else }}
+      <span>{{ substr .LinkTitle 0 1 }}</span>
+      <div class="post-card__grid"></div>
+    {{ end }}
+  </a>
+  <div class="post-card__body">
+    <div class="post-meta">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time>
+      <span>{{ .ReadingTime }} 分钟阅读</span>
+      {{ with .Params.views }}<span class="post-meta__views">{{ . }} 次阅读</span>{{ end }}
+      {{ with index .Params.categories 0 }}{{ $p := $.Site.GetPage (printf "/categories/%s" (. | urlize)) }}{{ if $p }}<a href="{{ $p.RelPermalink }}">{{ $p.LinkTitle }}</a>{{ else }}<a href="{{ printf "/categories/%s/" (. | urlize) | relURL }}">{{ . }}</a>{{ end }}{{ end }}
+    </div>
+    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    <p>{{ .Description | default (.Summary | plainify | truncate 92) }}</p>
+    <div class="post-card__foot">
+      <div class="tag-list">
+        {{ range .Params.tags }}{{ $tp := $.Site.GetPage (printf "/tags/%s" (. | urlize)) }}{{ if $tp }}<a href="{{ $tp.RelPermalink }}">#{{ $tp.LinkTitle }}</a>{{ else }}<a href="{{ printf "/tags/%s/" (. | urlize) | relURL }}">#{{ . }}</a>{{ end }}{{ end }}
+      </div>
+      <a class="read-link" href="{{ .RelPermalink }}">阅读全文 <span>→</span></a>
+    </div>
+  </div>
+</article>
