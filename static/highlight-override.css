@@ -1,0 +1,17 @@
+/*
+  hljs Monokai override — remove the dark code-block background.
+
+  Monokai ships with `background: #272822` on `.hljs`, which renders as a
+  dark "window" inside an otherwise light article surface. The text colors
+  (#f92672 / #66d9ef / #a6e22e etc.) are fine — they just need a
+  transparent / inherited background so the code block blends with the
+  surrounding article.
+
+  Light theme: code sits on the .glass surface of the article body.
+  Dark theme:  same — the page bg is already dark, no extra container needed.
+
+  Loaded AFTER /highlight-monokai.min.css so this rule wins specificity-wise.
+  The `!important` is needed because hljs sets background in the same .hljs
+  rule and we want to override it without changing the vendored file.
+*/
+.hljs { background: transparent !important; }

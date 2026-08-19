@@ -1,0 +1,24 @@
+{{- /*
+  Code block render hook — overrides Hugo's default Chroma output.
+
+  Hugo by default runs fenced code blocks through Chroma, which emits
+  <pre><code class="language-x"><span class="k">if</span> ...</code></pre>.
+  That output is incompatible with highlight.js: hljs scans <pre><code>
+  and adds its own spans, so we end up with double markup and CSS
+  classes from both Chroma and hljs fighting over the same text.
+
+  This hook emits raw <pre><code class="language-x"> ... </code></pre>
+  with no Chroma spans — hljs picks up the language class on the client
+  and highlights cleanly. Hugo's template engine auto-escapes .Inner
+  when rendering, so the code text is safe from XSS.
+
+  Result on the page (before hljs runs):
+    <pre><code class="language-go">if x { y() }</code></pre>
+  After hljs.highlightAll():
+    <pre><code class="language-go hljs"><span class="hljs-keyword">if</span> x { <span class="hljs-title function_">y</span>() }</code></pre>
+
+  No JS? Code still renders as plain monospace text. That's the
+  fallback we want — better than blank.
+*/ -}}
+{{- $lang := .Type | default "text" -}}
+<pre><code class="language-{{ $lang }}">{{ .Inner }}</code></pre>
