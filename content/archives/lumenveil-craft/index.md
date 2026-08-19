@@ -6,8 +6,8 @@ views: 0
 slug: lumenveil-craft
 aliases:
   - /archives/2026/08/lumenveil-craft/
-tags: [Hugo, Lumenveil, 主题, 自研]
-categories: [主题]
+tags: [Hugo, Lumenveil, theme, diy]
+categories: [theme]
 cover: 'cover-f65e2d67.jpg'
 cover_caption: 'v0.1.3 · 玻璃卡片 + 扁平模板,丝线把零散面板织成完整布匹'
 description: "把光织成纱——Lumenveil 自研主题从 v0.1.1 到 v0.1.3 的开发手记：版本演进、commit、设计决策、踩坑与待办。配套上一篇「Hugo + Lumenveil 搭建记录」使用——那篇讲站点部署，这篇讲主题本身。"

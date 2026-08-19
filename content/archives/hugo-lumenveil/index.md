@@ -6,7 +6,7 @@ views: 0
 slug: hugo-lumenveil
 aliases:
   - /archives/2026/08/hugo-lumenveil/
-tags: [Hugo, Lumenveil, 主题, 博客, 静态站点]
+tags: [Hugo, Lumenveil, theme, blog, static-site]
 cover: "blog-dark-home.png"
 categories: [webdev]
 description: "把 Hugo 站点从开发模式迁到生产静态服务的踩坑实录：baseURL、canonical、缓存、模板优先级、主题微调与封面图调试。"

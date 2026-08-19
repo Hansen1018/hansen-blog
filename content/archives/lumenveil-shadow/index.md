@@ -10,7 +10,7 @@ slug: lumenveil-shadow
 cover: 'cover-5e7f293d.jpg'
 cover_caption: 'v0.1.5 · box-shadow 拆到 ::before,影才归形'
 
-tags: [Hugo, Lumenveil, 主题, CSS, Chromium, glassmorphism]
+tags: [Hugo, Lumenveil, theme, CSS, Chromium, glassmorphism]
 
 categories: [主题]
 
