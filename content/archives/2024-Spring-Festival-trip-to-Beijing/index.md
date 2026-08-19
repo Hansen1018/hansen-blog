@@ -7,11 +7,11 @@ draft = false
 views = 0
 cover = "IMG_20240219_011030.jpg"
 tags = [
-    "2024春节",
-    "北京",
-    "龙年",
-    "旅行",
-    "随笔",
+    "2024-spring-festival",
+    "beijing",
+    "year-of-dragon",
+    "travel",
+    "essays",
 ]
 categories = [
     "life",

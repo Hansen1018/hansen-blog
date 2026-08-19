@@ -7,9 +7,9 @@ draft = false
 views = 0
 cover = "calendario-2022.jpg"
 Tags = [
-    "2021 回顾",
-    "2022 展望",
-    "随笔",
+    "2021-retro",
+    "2022-outlook",
+    "essays",
 ]
 Categories = [
     "life",

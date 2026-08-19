@@ -9,7 +9,7 @@ cover = "przemyslaw-marczynski-04TYM24Wi2c-unsplash.jpg"
 tags = [
     "HomePod",
     "Apple",
-    "随笔",
+    "essays",
 ]
 categories = [
     "life",

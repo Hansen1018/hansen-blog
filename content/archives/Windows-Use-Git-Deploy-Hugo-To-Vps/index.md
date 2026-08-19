@@ -9,7 +9,7 @@ views = 0
 cover = "gohugoio-card-base-1_huf001e7df4fd9c00c4355abac7d4ca455_242906_filter_10840867523766495988.png"
 tags = [
     "Blog",
-    "随笔",
+    "essays",
 ]
 categories = [
     "webdev",

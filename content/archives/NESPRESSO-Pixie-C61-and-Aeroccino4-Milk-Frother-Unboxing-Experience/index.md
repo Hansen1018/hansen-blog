@@ -8,9 +8,9 @@ views = 0
 cover = "jesper-brouwers-ioxmlrwJPBI-unsplash.jpg"
 tags = [
     "NESPRESSO",
-    "咖啡机",
-    "奶泡机",
-    "咖啡豆",
+    "coffee-machine",
+    "milk-frother",
+    "coffee-beans",
 ]
 categories = [
     "life",

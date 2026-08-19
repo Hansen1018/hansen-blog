@@ -7,8 +7,8 @@ draft = false
 views = 0
 cover = "59329306f487c0e1599e2d55e5b535d2.jpg"
 tags = [
-    "2019 回顾",
-    "2020 展望",
+    "2019-retro",
+    "2020-outlook",
 ]
 categories = [
     "life",

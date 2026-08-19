@@ -8,8 +8,8 @@ draft = false
 views = 0
 cover = "1.jpg"
 tags = [
-    "影评",
-    "随笔",
+    "movie-review",
+    "essays",
 ]
 categories = [
     "life",

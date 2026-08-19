@@ -7,9 +7,9 @@ draft = false
 views = 0
 cover = "066a4cd7efb392e6b4c811f7e769c2e1_L.jpg"
 Tags = [
-    "2020 回顾",
-    "2021 展望",
-    "随笔",
+    "2020-retro",
+    "2021-outlook",
+    "essays",
 ]
 Categories = [
     "life",

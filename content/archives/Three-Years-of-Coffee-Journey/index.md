@@ -9,9 +9,9 @@ views = 0
 cover = "1730075305399.jpg"
 tags = [
     "Coffee",
-    "咖啡机",
-    "咖啡豆",
-    "随笔",
+    "coffee-machine",
+    "coffee-beans",
+    "essays",
 ]
 categories = [
     "life",

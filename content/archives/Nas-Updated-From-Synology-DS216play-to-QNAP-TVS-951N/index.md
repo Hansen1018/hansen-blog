@@ -8,8 +8,8 @@ views = 0
 cover = "TVS-951N_PR828_chs.jpeg"
 tags = [
     "NAS",
-    "群辉",
-    "威联通",
+    "synology",
+    "qnap",
 ]
 categories = [
     "life",
