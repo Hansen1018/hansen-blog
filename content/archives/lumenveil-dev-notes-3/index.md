@@ -2,9 +2,10 @@
 title = "落子无悔 — Hugo 主题—Lumenveil开发手记 (Part 3)"
 slug = "lumenveil-dev-notes-3"
 date = 2026-08-19T01:03:00+08:00
-lastmod = 2026-08-19T13:40:00+08:00
+lastmod = 2026-08-19T14:27:54+08:00
 draft = false
 description = "v0.1.7 到 v0.1.9 的几天——gallery 五版演化、EXIF 旋转、单向 like 按钮、Chroma vs Prism、douban-card 死胡同、图片 caption 用 .Title 的发现。"
+images = ["images/lumenveil-dev-notes-3-cover.svg"]
 categories = ["Lumenveil", "Hugo"]
 tags = ["Hugo", "Lumenveil", "Dev Notes", "Gallery", "Chroma", "EXIF"]
 toc = true
