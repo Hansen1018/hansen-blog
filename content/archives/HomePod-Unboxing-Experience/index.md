@@ -1,22 +1,15 @@
-+++
-title = "HomePod国行版简单开箱+使用感受"
-slug = "HomePod-Unboxing-Experience"
-description = ""
-date = 2019-01-29T04:19:36+08:00
-draft = false
-views = 0
-cover = "przemyslaw-marczynski-04TYM24Wi2c-unsplash.jpg"
-tags = [
-    "HomePod",
-    "Apple",
-    "essays",
-]
-categories = [
-    "life",
-]
+---
+title: "HomePod国行版简单开箱+使用感受"
+slug: "HomePod-Unboxing-Experience"
+description: ""
+date: 2019-01-29T04:19:36+08:00
+draft: false
+views: 0
+cover: "przemyslaw-marczynski-04TYM24Wi2c-unsplash.jpg"
+tags: [HomePod, Apple, essays]
+categories: [life]
 
-+++
-
+---
 ![](20191012192901.jpg)
 
 好久不更新Blog，上次更新还是2018年7月份的我的桌面2.0的文章。公司一年的事情终于忙完放假休息了，2018年是不平凡的一年，苦尽甘来，绝地后生。正在用HomePod听着齐秦的歌曲list来写这篇文章，简直是好久没有的惬意。

@@ -1,23 +1,14 @@
-+++
-title = "NESPRESSO/奈斯派索 Pixie C61 | Aeroccino4冷热奶泡机 | 咖啡师创意之选胶囊咖啡套装开箱及体验感受"
-slug = "NESPRESSO-Pixie-C61-and-Aeroccino4-Milk-Frother-Unboxing-Experience"
-description = ""
-date = 2020-09-01T05:46:18+08:00
-draft = false
-views = 0
-cover = "jesper-brouwers-ioxmlrwJPBI-unsplash.jpg"
-tags = [
-    "NESPRESSO",
-    "coffee-machine",
-    "milk-frother",
-    "coffee-beans",
-]
-categories = [
-    "life",
-]
-+++
-
-
+---
+title: "NESPRESSO/奈斯派索 Pixie C61 | Aeroccino4冷热奶泡机 | 咖啡师创意之选胶囊咖啡套装开箱及体验感受"
+slug: "NESPRESSO-Pixie-C61-and-Aeroccino4-Milk-Frother-Unboxing-Experience"
+description: ""
+date: 2020-09-01T05:46:18+08:00
+draft: false
+views: 0
+cover: "jesper-brouwers-ioxmlrwJPBI-unsplash.jpg"
+tags: [NESPRESSO, coffee-machine, milk-frother, coffee-beans]
+categories: [life]
+---
 ![](20200901004547.jpg)
 
 说起购买胶囊咖啡机，是我8月某天无聊打开了小米众筹，看到正在众筹小米自家新推出的胶囊咖啡机，看到价格很便宜，才不到400元，被种草了。然后淘宝搜索了胶囊咖啡机，哇，让我看到了新世界，有各种样式的咖啡机，价格从几百到上万的都有。之前我知道很多人喜欢喝咖啡，自己偶尔点外卖时来一杯，但身边都是去星爸爸、瑞幸咖啡。他们使用的都是大型商用咖啡机，基本上万元起步，根本不知道还可以自己购买咖啡机、咖啡粉制作可口的咖啡。

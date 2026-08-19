@@ -1,17 +1,16 @@
-+++
-title = "落子无悔 — Hugo 主题—Lumenveil开发手记 (Part 3)"
-slug = "lumenveil-dev-notes-3"
-date = 2026-08-19T01:03:00+08:00
-lastmod = 2026-08-19T15:41:34+08:00
-draft = false
-description = "v0.1.7 到 v0.1.9 的几天——gallery 五版演化、EXIF 旋转、单向 like 按钮、Chroma vs Prism、douban-card 死胡同、图片 caption 用 .Title 的发现。"
-cover = "images/lumenveil-dev-notes-3-cover.png"
-cover_caption = "v0.1.7 → v0.1.9 · 五版 gallery · 单向 like · 落子无悔"
-categories = ["主题"]
-tags = ["Hugo", "Lumenveil", "Dev Notes", "Gallery", "Chroma", "EXIF"]
-toc = true
-+++
-
+---
+title: "落子无悔 — Hugo 主题—Lumenveil开发手记 (Part 3)"
+slug: "lumenveil-dev-notes-3"
+date: 2026-08-19T01:03:00+08:00
+lastmod: 2026-08-19T15:41:34+08:00
+draft: false
+description: "v0.1.7 到 v0.1.9 的几天——gallery 五版演化、EXIF 旋转、单向 like 按钮、Chroma vs Prism、douban-card 死胡同、图片 caption 用 .Title 的发现。"
+cover: "images/lumenveil-dev-notes-3-cover.png"
+cover_caption: "v0.1.7 → v0.1.9 · 五版 gallery · 单向 like · 落子无悔"
+categories: [主题]
+tags: [Hugo, Lumenveil, Dev Notes, Gallery, Chroma, EXIF]
+toc: true
+---
 Part 2 收尾的时候主题刚把分享按钮和评论系统接上，gallery 还是 v0.1.6 那套 flex 网格。当时觉得"够用了"。等到了 v0.1.9，回头看 Part 2 写的东西，最想改的就是 gallery——它是真的没做完。
 
 这几天从 v0.1.7 滚到 v0.1.9，提交 60+，看起来很热闹，但 80% 的时间都耗在 gallery 这一件事上。其他都是顺带做的。

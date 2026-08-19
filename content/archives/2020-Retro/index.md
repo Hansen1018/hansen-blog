@@ -1,22 +1,15 @@
-+++
-title = "回顾2020，展望2021"
-slug = "2020-Retro"
-description = ""
-date = 2020-12-31T20:44:11+08:00
-draft = false
-views = 0
-cover = "066a4cd7efb392e6b4c811f7e769c2e1_L.jpg"
-Tags = [
-    "2020-retro",
-    "2021-outlook",
-    "essays",
-]
-Categories = [
-    "life",
-]
+---
+title: "回顾2020，展望2021"
+slug: "2020-Retro"
+description: ""
+date: 2020-12-31T20:44:11+08:00
+draft: false
+views: 0
+cover: "066a4cd7efb392e6b4c811f7e769c2e1_L.jpg"
+Tags: [2020-retro, 2021-outlook, essays]
+Categories: [life]
 
-+++
-
+---
 ![](65962b3080b43_800.jpg)
 
 又好久没有更新Blog，今天是2020年最后一天，突然很想写点什么。

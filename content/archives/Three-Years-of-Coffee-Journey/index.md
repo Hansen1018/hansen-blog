@@ -1,24 +1,15 @@
-+++
-title = "三年咖啡之旅：从胶囊到单一来源的探索之路"
-slug = "Three-Years-of-Coffee-Journey"
-description = ""
-date = 2024-10-28T08:54:48+08:00
-lastmod = 2024-10-28T10:35:18+08:00
-draft = false
-views = 0
-cover = "1730075305399.jpg"
-tags = [
-    "Coffee",
-    "coffee-machine",
-    "coffee-beans",
-    "essays",
-]
-categories = [
-    "life",
-]
-+++
-
-
+---
+title: "三年咖啡之旅：从胶囊到单一来源的探索之路"
+slug: "Three-Years-of-Coffee-Journey"
+description: ""
+date: 2024-10-28T08:54:48+08:00
+lastmod: 2024-10-28T10:35:18+08:00
+draft: false
+views: 0
+cover: "1730075305399.jpg"
+tags: [Coffee, coffee-machine, coffee-beans, essays]
+categories: [life]
+---
 在这三年的咖啡旅程中，我的体验真是丰富多彩。让我为你总结一下每一年的探索吧！
 
 ## 第一年：胶囊入门

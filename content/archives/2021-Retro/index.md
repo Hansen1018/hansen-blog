@@ -1,22 +1,15 @@
-+++
-title = "回顾2021，展望2022"
-slug = "2021-Retro"
-description = ""
-date = 2022-01-02T03:45:18+08:00
-draft = false
-views = 0
-cover = "calendario-2022.jpg"
-Tags = [
-    "2021-retro",
-    "2022-outlook",
-    "essays",
-]
-Categories = [
-    "life",
-]
+---
+title: "回顾2021，展望2022"
+slug: "2021-Retro"
+description: ""
+date: 2022-01-02T03:45:18+08:00
+draft: false
+views: 0
+cover: "calendario-2022.jpg"
+Tags: [2021-retro, 2022-outlook, essays]
+Categories: [life]
 
-+++
-
+---
 ![](IMG_4419.JPEG)
 
 又是距离半年时间更新Blog，这快成我的惯例，其实常常想写些什么，但不知道从哪里动笔。现在又一年一度的写总结和展望时候，此刻心情很复杂。

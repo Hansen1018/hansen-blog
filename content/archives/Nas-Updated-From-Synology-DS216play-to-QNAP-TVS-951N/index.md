@@ -1,22 +1,15 @@
-+++
-title = "NAS从两盘群辉DS216play更新到九盘威联通TVS-951N的历日旷久之路"
-slug = "Nas-Updated-From-Synology-DS216play-to-QNAP-TVS951N"
-description = ""
-date = 2021-05-09T21:34:22+08:00
-draft = false
-views = 0
-cover = "TVS-951N_PR828_chs.jpeg"
-tags = [
-    "NAS",
-    "synology",
-    "qnap",
-]
-categories = [
-    "life",
-]
+---
+title: "NAS从两盘群辉DS216play更新到九盘威联通TVS-951N的历日旷久之路"
+slug: "Nas-Updated-From-Synology-DS216play-to-QNAP-TVS951N"
+description: ""
+date: 2021-05-09T21:34:22+08:00
+draft: false
+views: 0
+cover: "TVS-951N_PR828_chs.jpeg"
+tags: [NAS, synology, qnap]
+categories: [life]
 
-+++
-
+---
 ![](IMG_3504.JPG)
 
 ## 抢购硬盘
