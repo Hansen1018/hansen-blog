@@ -81,9 +81,12 @@ try {
 <meta property="og:description" content="{{ $description }}">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:site_name" content="{{ site.Title }}">
-{{- $ogImage := .Params.cover | default "og.svg" -}}
-<meta property="og:image" content="{{ $ogImage | absURL }}">
-<meta name="twitter:image" content="{{ $ogImage | absURL }}">
+{{- $ogImage := "og.svg" | absURL -}}
+{{- with .Resources.GetMatch (.Params.cover) }}
+  {{- $ogImage = .Permalink -}}
+{{- end }}
+<meta property="og:image" content="{{ $ogImage }}">
+<meta name="twitter:image" content="{{ $ogImage }}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ $title }}">
 <meta name="twitter:description" content="{{ $description }}">
