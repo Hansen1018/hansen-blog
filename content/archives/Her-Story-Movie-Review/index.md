@@ -7,7 +7,7 @@ lastmod: 2026-08-18T15:25:00+08:00
 draft: false
 views: 0
 cover: "1.jpg"
-tags: [电影, 观后感]
+tags: [movie, review]
 categories: [life]
 ---
 ![电影海报](2.jpg)

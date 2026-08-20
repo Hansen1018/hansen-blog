@@ -8,7 +8,7 @@ lastmod: 2026-08-20T22:20:00+08:00
 draft: false
 views: 0
 cover: "2026-08-20-Dead-To-Rights-review-cover.jpg"
-tags: [电影, 观后感]
+tags: [movie, review]
 categories: [life]
 author: Hansen
 description: "81年后，我一个人坐在黑暗里看完了一部关于普通人的电影。那杯凉掉的水，最后还是喝了。"
