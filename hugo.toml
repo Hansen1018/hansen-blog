@@ -1,6 +1,6 @@
 baseURL = 'https://blog.hansendong.top/'
 title = "Hansen's Blog"
-theme = 'lumenveil'
+theme = 'hugo-theme-lumenveil'
 
 locale = 'zh-cn'
 defaultContentLanguage = 'zh-cn'

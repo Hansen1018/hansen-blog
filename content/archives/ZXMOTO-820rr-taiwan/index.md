@@ -4,7 +4,7 @@ slug: "ZXMOTO-820rr-taiwan"
 aliases:
   - /archives/2026/08/ZXMOTO-820rr-taiwan/
 date: 2026-08-21T01:05:26+08:00
-lastmod: 2026-08-21T02:03:54+08:00
+lastmod: 2026-08-21T02:09:59+08:00
 draft: false
 views: 0
 cover: "2026-08-21-ZXMOTO-820rr-taiwan-cover.jpg"
@@ -104,6 +104,4 @@ description: '一辆车，拆成零件漂洋过海，再拼回去——这种"�
 
 一辆被拆碎的机车，最终拼凑出的，是一个完整的答案。
 
-> 📰 **新闻来源**：
-
-{{< exlink "https://news.bjd.com.cn/2026/08/20/11924803.shtml" "张雪回应机车遭台当局查扣：送到统一为止" >}}
+{{< cite "https://news.bjd.com.cn/2026/08/20/11924803.shtml" "张雪回应机车遭台当局查扣：送到统一为止" >}}
