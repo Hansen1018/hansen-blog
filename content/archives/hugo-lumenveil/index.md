@@ -8,7 +8,7 @@ aliases:
   - /archives/2026/08/hugo-lumenveil/
 tags: [Hugo, Lumenveil, theme, blog, static-site]
 cover: "blog-dark-home.png"
-categories: [webdev, 主题]
+categories: [webdev, theme]
 description: "把 Hugo 站点从开发模式迁到生产静态服务的踩坑实录：baseURL、canonical、缓存、模板优先级、主题微调与封面图调试。"
 ---
 

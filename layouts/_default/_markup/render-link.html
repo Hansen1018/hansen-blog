@@ -1,0 +1,54 @@
+{{- /*
+  render-link.html — site-level override of Hugo's default link rendering.
+
+  Auto-detects Douban URLs and renders them as a styled douban-card, so
+  authors don't have to manually write the {{< douban-card >}} shortcode.
+
+  Detected patterns:
+    https://movie.douban.com/subject/{id}/   →  movie
+    https://book.douban.com/subject/{id}/    →  book
+    https://music.douban.com/subject/{id}/   →  music
+
+  Douban closed its public API in 2022, so we can't fetch live metadata.
+  The card uses only the link text as title.
+
+  Coexists with the manual shortcode:
+    - {{< douban-card id=... title=... year=... director=... rating=... cast=... >}}  → rich metadata, full card
+    - [text](https://movie.douban.com/subject/{id}/)                                  → minimal card from link text
+
+  When the URL isn't a Douban subject, the template outputs nothing and
+  Hugo falls back to its default link rendering.
+*/ -}}
+
+{{- $url := .Destination -}}
+{{- $doubanType := "" -}}
+
+{{- if findRE `^https?://movie\.douban\.com/subject/[0-9]+` $url -}}
+  {{- $doubanType = "movie" -}}
+{{- else if findRE `^https?://book\.douban\.com/subject/[0-9]+` $url -}}
+  {{- $doubanType = "book" -}}
+{{- else if findRE `^https?://music\.douban\.com/subject/[0-9]+` $url -}}
+  {{- $doubanType = "music" -}}
+{{- end -}}
+
+{{- if $doubanType -}}
+  {{- $iconPath := "M3 7a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7zm13 1l5-3v11l-5-3V8z" -}}
+  {{- $ariaIcon := "电影" -}}
+  {{- if eq $doubanType "book" -}}
+    {{- $iconPath = "M3 5a2 2 0 0 1 2-2h5v16H5a2 2 0 0 1-2-2V5zm9-2h7a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-7V3z" -}}
+    {{- $ariaIcon = "书籍" -}}
+  {{- else if eq $doubanType "music" -}}
+    {{- $iconPath = "M9 17V5l11-2v12M9 17a2 2 0 1 1-2-2 2 2 0 0 1 2 2zM20 15a2 2 0 1 1-2-2 2 2 0 0 1 2 2z" -}}
+    {{- $ariaIcon = "音乐" -}}
+  {{- end -}}
+  <a class="douban-card douban-card--auto" href="{{ $url }}" target="_blank" rel="noopener noreferrer" aria-label="豆瓣：{{ .Text }}">
+    <div class="douban-card__icon" aria-label="{{ $ariaIcon }}"><svg viewBox="0 0 24 24" fill-rule="evenodd" aria-hidden="true"><path d="{{ $iconPath }}"/></svg></div>
+    <div class="douban-card__body">
+      <div class="douban-card__title">
+        <span>{{ .Text }}</span>
+      </div>
+    </div>
+    <span class="douban-card__source">豆瓣</span>
+    <div class="douban-card__arrow" aria-hidden="true">→</div>
+  </a>
+{{- end -}}
