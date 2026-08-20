@@ -1,0 +1,80 @@
+{{ define "main" }}
+<article class="article fade-up">
+  <header class="article-header">
+    <div class="breadcrumbs">
+      <a href="{{ site.Home.RelPermalink }}">首页</a><span>/</span><span>{{ .Title }}</span>
+    </div>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="article-deck">{{ . }}</p>{{ end }}
+  </header>
+
+  <div class="friends-stack">
+    {{/* ===== 顶卡：交换友链说明 + 本站信息 ===== */}}
+    <section class="friends-info glass" id="exchange">
+      <div class="friends-info__head">
+        <span class="friends-info__eyebrow">Exchange · 互换友链</span>
+        <h3 class="friends-info__title">Let&#39;s make blogging fun again!</h3>
+      </div>
+      <div class="friends-info__body prose">
+        {{ .Content }}
+      </div>
+      <dl class="friends-info-table">
+        <dt>博客名称</dt><dd>{{ site.Title }}</dd>
+        <dt>博客简介</dt><dd>{{ site.Params.description }}</dd>
+        <dt>博客网址</dt><dd><a href="{{ site.BaseURL }}">{{ site.BaseURL }}</a></dd>
+        <dt>博客头像</dt><dd><a href="{{ .Site.Params.avatar | absURL }}">{{ .Site.Params.avatar | absURL }}</a></dd>
+      </dl>
+      <div class="friends-info__foot">
+        <span class="friends-updated" title="页面最后更新">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          最后更新于 {{ .Lastmod.Format "2006 年 01 月 02 日" }}
+        </span>
+      </div>
+    </section>
+
+    {{/* ===== 底卡：友链网格（来自 data/friends.yaml） ===== */}}
+    {{/* 把数据存到变量，避免 with 块在 yaml 缺失时整个跳过 */}}
+    {{ $friends := hugo.Data.friends }}
+    {{ $count := 0 }}
+    {{ if $friends }}{{ $count = len $friends }}{{ end }}
+    <section class="friends-grid-card glass">
+      <header class="friends-grid-head">
+        <span class="eyebrow">Roll Call</span>
+        <h2>同行者</h2>
+        <span class="friends-grid-count">{{ $count }} 位</span>
+      </header>
+      {{ if gt $count 0 }}
+        <div class="friends-grid" role="list" aria-label="友情链接列表">
+          {{ range $friends }}
+            {{/* 取首 rune（兼容中文；substr 是 byte-based，会乱码）*/}}
+            {{ $initial := "" }}
+            {{ if not .avatar }}
+              {{ with findRE "^." .name 1 }}{{ $initial = index . 0 }}{{ end }}
+            {{ end }}
+            <a class="friend-card" href="{{ .url }}" target="_blank" rel="noopener" role="listitem"{{ with .desc }} title="{{ . }}"{{ end }}>
+              {{ if .avatar }}
+                <img class="friend-card__avatar" src="{{ .avatar }}" alt="{{ .name }}" loading="lazy" decoding="async"
+                     onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'friend-card__avatar friend-card__avatar--placeholder',textContent:(this.alt||'').slice(0,1)}))">
+              {{ else }}
+                <span class="friend-card__avatar friend-card__avatar--placeholder" aria-hidden="true">{{ $initial }}</span>
+              {{ end }}
+              <span class="friend-card__name">{{ .name }}</span>
+            </a>
+          {{ end }}
+        </div>
+      {{ else }}
+        <p class="friends-empty">友链位还空着呢～ 想做第一个邻居的话，下面留言区说一声，或者去<a href="#exchange">上面看看交换规则</a> ✨</p>
+      {{ end }}
+    </section>
+
+    {{/* ===== 友链下方：评论（Artalk） ===== */}}
+    <section class="friends-comments glass">
+      <header class="friends-comments__head">
+        <span class="eyebrow">Talk</span>
+        <h2>留言</h2>
+      </header>
+      <div class="article-comments">{{ partial "comments.html" . }}</div>
+    </section>
+  </div>
+</article>
+{{ end }}

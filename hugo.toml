@@ -80,6 +80,10 @@ enableRobotsTXT = true
     pageRef = '/tags'
     weight = 40
   [[menus.main]]
+    name = '友链'
+    pageRef = '/friends'
+    weight = 45
+  [[menus.main]]
     name = '关于'
     url = '/about/'
     weight = 50
