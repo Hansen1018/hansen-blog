@@ -12,7 +12,7 @@ cover_caption: 'v0.1.5 · box-shadow 拆到 ::before,影才归形'
 
 tags: [Hugo, Lumenveil, theme, CSS, Chromium, glassmorphism]
 
-categories: [主题]
+categories: [theme]
 
 description: "把影归到形——Lumenveil v0.1.4 → v0.1.5 的修复手记：box-shadow + border-radius 的 Chromium bug、分享栏三次微调、首页 404、移动端摘要精简。"
 

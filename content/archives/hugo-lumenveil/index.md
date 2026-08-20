@@ -1,14 +1,14 @@
 ---
 title: "Hugo + Lumenveil 搭建记录"
 date: 2026-08-11T02:22:00+08:00
-lastmod: 2026-08-12T22:53:13+08:00
+lastmod: 2026-08-20T14:59:15+08:00
 views: 0
 slug: hugo-lumenveil
 aliases:
   - /archives/2026/08/hugo-lumenveil/
 tags: [Hugo, Lumenveil, theme, blog, static-site]
 cover: "blog-dark-home.png"
-categories: [webdev]
+categories: [webdev, 主题]
 description: "把 Hugo 站点从开发模式迁到生产静态服务的踩坑实录：baseURL、canonical、缓存、模板优先级、主题微调与封面图调试。"
 ---
 

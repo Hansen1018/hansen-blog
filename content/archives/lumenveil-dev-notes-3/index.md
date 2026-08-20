@@ -7,7 +7,7 @@ draft: false
 description: "v0.1.7 到 v0.1.9 的几天——gallery 五版演化、EXIF 旋转、单向 like 按钮、Chroma vs Prism、douban-card 死胡同、图片 caption 用 .Title 的发现。"
 cover: "images/lumenveil-dev-notes-3-cover.png"
 cover_caption: "v0.1.7 → v0.1.9 · 五版 gallery · 单向 like · 落子无悔"
-categories: [主题]
+categories: [theme]
 tags: [Hugo, Lumenveil, Dev Notes, Gallery, Chroma, EXIF]
 toc: true
 ---
