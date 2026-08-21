@@ -1,4 +1,7 @@
 {{- /*
+\n⚠️ Hugo render-link.html hook REPLACES default link rendering — if this template
+   outputs nothing for a URL, Hugo does NOT fall back; the link is silently dropped.
+   So this hook must handle EVERY URL: Douban → douban-card, else → default <a>.
   render-link.html — site-level override of Hugo's default link rendering.
 
   Auto-detects Douban URLs and renders them as a styled douban-card, so
@@ -16,8 +19,8 @@
     - {{< douban-card id=... title=... year=... director=... rating=... cast=... >}}  → rich metadata, full card
     - [text](https://movie.douban.com/subject/{id}/)                                  → minimal card from link text
 
-  When the URL isn't a Douban subject, the template outputs nothing and
-  Hugo falls back to its default link rendering.
+  When the URL isn't a Douban subject, the template outputs a default <a>
+  (Hugo render-link.html REPLACES the default; empty output = link silently dropped).
 */ -}}
 
 {{- $url := .Destination -}}
@@ -51,4 +54,6 @@
     <span class="douban-card__source">豆瓣</span>
     <div class="douban-card__arrow" aria-hidden="true">→</div>
   </a>
+{{- else -}}
+<a href="{{ $url }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if not (findRE "^/" $url) }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .Text | safeHTML }}</a>
 {{- end -}}

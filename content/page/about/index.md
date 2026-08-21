@@ -39,11 +39,9 @@ Hi~👋
 
 如果你对项目、技术或随想感兴趣，欢迎来找我聊：
 
-|  |  |
-| --- | --- |
-| 🐙 | **GitHub:** [Hansen1018](https://github.com/Hansen1018) |
-| 𝕏 | **X (Twitter):** [@Hansen1018](https://x.com/Hansen1018) |
-| ✈️ | **Telegram:** [@Hansen1018](https://t.me/Hansen1018) |
-| 📧 | **Email:** hansendong1018@gmail.com |
+- 🐙 **GitHub**: [Hansen1018](https://github.com/Hansen1018)
+- 𝕏 **X (Twitter)**: [@Hansen1018](https://x.com/Hansen1018)
+- ✈️ **Telegram**: [@Hansen1018](https://t.me/Hansen1018)
+- 📧 **Email**: <hansendong1018@gmail.com>
 
 > 保持好奇，持续输出。欢迎来到这里。
