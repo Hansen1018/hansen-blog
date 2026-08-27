@@ -4,6 +4,7 @@ slug = 'about'
 draft = false
 description = '关于我、这个博客，以及我正在关注的事情。'
 layout = 'page'
+eyebrow = 'About · 关于'
 toc = true
 +++
 

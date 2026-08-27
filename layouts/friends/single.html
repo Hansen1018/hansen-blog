@@ -1,13 +1,14 @@
 {{ define "main" }}
-<article class="article fade-up">
-  <header class="article-header">
-    <div class="breadcrumbs">
-      <a href="{{ site.Home.RelPermalink }}">首页</a><span>/</span><span>{{ .Title }}</span>
-    </div>
-    <h1>{{ .Title }}</h1>
-    {{ with .Description }}<p class="article-deck">{{ . }}</p>{{ end }}
-  </header>
+<section class="page-hero">
+  <div class="breadcrumbs">
+    <a href="{{ site.Home.RelPermalink }}">首页</a><span>/</span><span>{{ .Title }}</span>
+  </div>
+  <span class="eyebrow">Friends · 友链</span>
+  <h1>{{ .Title }}</h1>
+  <p>{{ .Description }}</p>
+</section>
 
+<section class="section section--compact" data-reveal>
   <div class="friends-stack">
     {{/* ===== 顶卡：交换友链说明 + 本站信息 ===== */}}
     <section class="friends-info glass" id="exchange">
@@ -76,5 +77,5 @@
       <div class="article-comments">{{ partial "comments.html" . }}</div>
     </section>
   </div>
-</article>
+</section>
 {{ end }}
