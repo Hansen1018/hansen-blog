@@ -2,9 +2,14 @@ baseURL = 'https://blog.hansendong.top/'
 title = "Hansen's Blog"
 theme = 'hugo-theme-lumenveil'
 
-locale = 'zh-cn'
 defaultContentLanguage = 'zh-cn'
-hasCJKLanguage = true
+
+[languages]
+  [languages.zh-cn]
+    locale = 'zh-cn'
+    languageName = '中文'
+    weight = 1
+    hasCJKLanguage = true
 enableRobotsTXT = true
 
 [pagination]
