@@ -1,17 +1,21 @@
 ---
-title: "织光成纱 — Hugo 主题—Lumenveil开发手记 (Part 1)"
-date: 2026-08-12T00:38:00+08:00
-lastmod: 2026-08-12T22:53:13+08:00
+title: 织光成纱 — Hugo 主题—Lumenveil开发手记 (Part 1)
+date: 2026-08-12 00:38:00+08:00
+lastmod: 2026-08-12 22:53:13+08:00
 views: 0
 slug: lumenveil-craft
-aliases:
-  - /archives/2026/08/lumenveil-craft/
-tags: [Hugo, Lumenveil, theme, diy]
-categories: [theme]
-cover: 'cover-f65e2d67.jpg'
-cover_caption: 'v0.1.3 · 玻璃卡片 + 扁平模板,丝线把零散面板织成完整布匹'
-description: "把光织成纱——Lumenveil 自研主题从 v0.1.1 到 v0.1.3 的开发手记：版本演进、commit、设计决策、踩坑与待办。配套上一篇「Hugo + Lumenveil 搭建记录」使用——那篇讲站点部署，这篇讲主题本身。"
+tags:
+- Hugo
+- Lumenveil
+- theme
+- diy
+categories:
+- theme
+cover: cover-f65e2d67.jpg
+cover_caption: v0.1.3 · 玻璃卡片 + 扁平模板,丝线把零散面板织成完整布匹
+description: 把光织成纱——Lumenveil 自研主题从 v0.1.1 到 v0.1.3 的开发手记：版本演进、commit、设计决策、踩坑与待办。配套上一篇「Hugo + Lumenveil 搭建记录」使用——那篇讲站点部署，这篇讲主题本身。
 ---
+
 
 上一篇「[Hugo + Lumenveil 搭建记录]({{< ref "archives/hugo-lumenveil" >}})」讲的是站点部署（baseURL、canonical、缓存、反代、生产静态化）。这篇换视角，讲主题本身。版本怎么演进，每个 commit 加了什么，做了哪些设计决策，踩过哪些坑。写这篇的时候主题在 `v0.1.3`。
 

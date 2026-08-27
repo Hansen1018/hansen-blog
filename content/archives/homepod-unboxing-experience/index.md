@@ -1,15 +1,20 @@
 ---
-title: "HomePod国行版简单开箱+使用感受"
-slug: "HomePod-Unboxing-Experience"
-description: ""
-date: 2019-01-29T04:19:36+08:00
+title: HomePod国行版简单开箱+使用感受
+slug: homepod-unboxing-experience
+description: 好久不更新Blog，上次更新还是2018年7月份的我的桌面2.0的文章。公司一年的事情终于忙完放假休息了，2018年是不平凡的一年，苦尽甘来，绝地后生。正在用HomePod听着齐秦的歌曲list来写这篇文章，简直是好久没有的惬意。
+date: 2019-01-29 04:19:36+08:00
 draft: false
 views: 0
-cover: "przemyslaw-marczynski-04TYM24Wi2c-unsplash.jpg"
-tags: [HomePod, Apple, essays]
-categories: [life]
-
+cover: przemyslaw-marczynski-04TYM24Wi2c-unsplash.jpg
+tags:
+- HomePod
+- Apple
+- essays
+categories:
+- life
 ---
+
+
 ![](20191012192901.jpg)
 
 好久不更新Blog，上次更新还是2018年7月份的我的桌面2.0的文章。公司一年的事情终于忙完放假休息了，2018年是不平凡的一年，苦尽甘来，绝地后生。正在用HomePod听着齐秦的歌曲list来写这篇文章，简直是好久没有的惬意。
@@ -36,7 +41,7 @@ deng deng deng，露出真面目
 ![](20191012192931.jpg)
 
 iPhone5s IOS12系统以上iPhone靠近HomePod，就会弹出设置选项界面
-![](20191012192937.jpg)  ![](20191012192944.jpg)  ![](20191012192952.jpg)
+{{< gallery images="20191012192937.jpg,20191012192944.jpg,20191012192952.jpg" cols="3" sort="manual" >}}
 
 拿到就迫不期待的开封激活和接上电源连接PC测试，两个软件都亲自测试过了，也购买正版了，相对来说Airfoil贵一些，270多大洋（Windows和Mac双版本 40刀），TuneBlade 70大洋左右（只支持Windows系统 9.99刀)。
 {{< youtube Jc_FSLYQR10 >}}

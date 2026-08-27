@@ -1,14 +1,22 @@
 ---
-title: "春节北京游记：颐和园与鸟巢探访"
-slug: "2024-Spring-Festival-trip-to-Beijing"
-date: 2024-03-23T01:09:03+08:00
-lastmod: 2026-08-18T15:15:00+08:00
+title: 春节北京游记：颐和园与鸟巢探访
+slug: 2024-Spring-Festival-trip-to-Beijing
+date: 2024-03-23 01:09:03+08:00
+lastmod: 2026-08-18 15:15:00+08:00
 draft: false
 views: 0
-cover: "IMG_20240219_011030.jpg"
-tags: [2024-spring-festival, beijing, year-of-dragon, travel, essays]
-categories: [life]
+cover: IMG_20240219_011030.jpg
+tags:
+- 2024-spring-festival
+- beijing
+- year-of-dragon
+- travel
+- essays
+categories:
+- life
+description: 👋很久没有写博客了，博客已经不知去向，因为琐事缠身，没有心情续费，所以整个博客数据丢失了。看看找机会恢复下之前几年的写过文章吧。😢
 ---
+
    👋很久没有写博客了，博客已经不知去向，因为琐事缠身，没有心情续费，所以整个博客数据丢失了。看看找机会恢复下之前几年的写过文章吧。😢
    
    我很多年没有旅行过了，今年的春节，却给了我一个重新踏上旅途的机会。母亲大人终于在去年10月置换掉已经开了 10 年出头的二手 2011 款的标致 207，提了新车上汽大众凌度L 酷辣版，相当于次顶配。一家人在前一天晚上说起买回来 3-4 个月了，还没有跑过高速，母亲提议第二天去北京看看伯伯一家，第二天初六驶向了北京，展开了为期两天的说走就走游玩之旅。

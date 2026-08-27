@@ -1,18 +1,20 @@
 ---
-title: "深夜两点，我一个人看完了《南京照相馆》"
-slug: "Dead-To-Rights-review"
-aliases:
-  - /archives/2026/08/nanjing-photo-studio/
-date: 2026-08-20T21:54:20+08:00
-lastmod: 2026-08-20T22:20:00+08:00
+title: 深夜两点，我一个人看完了《南京照相馆》
+slug: dead-to-rights-review
+date: 2026-08-20 21:54:20+08:00
+lastmod: 2026-08-20 22:20:00+08:00
 draft: false
 views: 0
-cover: "2026-08-20-Dead-To-Rights-review-cover.jpg"
-tags: [movie, review]
-categories: [life]
+cover: 2026-08-20-Dead-To-Rights-review-cover.jpg
+tags:
+- movie
+- review
+categories:
+- life
 author: Hansen
-description: "81年后，我一个人坐在黑暗里看完了一部关于普通人的电影。那杯凉掉的水，最后还是喝了。"
+description: 81年后，我一个人坐在黑暗里看完了一部关于普通人的电影。那杯凉掉的水，最后还是喝了。
 ---
+
 
 ![《南京照相馆》海报 — 每一个中国人都不会忘记](2026-08-21-Dead-To-Rights-review-poster.jpg)
 

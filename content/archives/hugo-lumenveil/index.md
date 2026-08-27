@@ -1,16 +1,22 @@
 ---
-title: "Hugo + Lumenveil 搭建记录"
-date: 2026-08-11T02:22:00+08:00
-lastmod: 2026-08-20T14:59:15+08:00
+title: Hugo + Lumenveil 搭建记录
+date: 2026-08-11 02:22:00+08:00
+lastmod: 2026-08-20 14:59:15+08:00
 views: 0
 slug: hugo-lumenveil
-aliases:
-  - /archives/2026/08/hugo-lumenveil/
-tags: [Hugo, Lumenveil, theme, blog, static-site]
-cover: "blog-dark-home.png"
-categories: [webdev, theme]
-description: "把 Hugo 站点从开发模式迁到生产静态服务的踩坑实录：baseURL、canonical、缓存、模板优先级、主题微调与封面图调试。"
+tags:
+- Hugo
+- Lumenveil
+- theme
+- blog
+- static-site
+cover: blog-dark-home.png
+categories:
+- webdev
+- theme
+description: 把 Hugo 站点从开发模式迁到生产静态服务的踩坑实录：baseURL、canonical、缓存、模板优先级、主题微调与封面图调试。
 ---
+
 
 > 得益于 AI 大模型与 openclaw / opencode 的飞速演进，我终于有底气重启搁置多年的博客，并自研了整套 web + blog 主题。
 

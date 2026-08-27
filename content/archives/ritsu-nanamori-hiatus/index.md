@@ -1,18 +1,21 @@
 ---
-title: "写在七ツ森りり休业之后：愿每一段旅程都有归期"
-slug: "ritsu-nanamori-hiatus"
-aliases:
-  - /archives/2026/08/ritsu-nanamori-hiatus/
-date: 2026-08-26T21:03:37+08:00
-lastmod: 2026-08-26T22:40:33+08:00
+title: 写在七ツ森りり休业之后：愿每一段旅程都有归期
+slug: ritsu-nanamori-hiatus
+date: 2026-08-26 21:03:37+08:00
+lastmod: 2026-08-26 22:40:33+08:00
 draft: false
 views: 0
-cover: "cover.jpg"
-tags: [随笔, 人物, 行业观察]
-categories: [life]
+cover: cover.jpg
+tags:
+- 随笔
+- 人物
+- 行业观察
+categories:
+- life
 author: Hansen
-description: '2026年8月19日，七ツ森りり出道六周年。她在这一天宣布，9月22日的新作发布后将进入休业。本文是一篇写在她休业之后的纪念与祝福。'
+description: 2026年8月19日，七ツ森りり出道六周年。她在这一天宣布，9月22日的新作发布后将进入休业。本文是一篇写在她休业之后的纪念与祝福。
 ---
+
 
 2026年8月19日，七ツ森りり出道六周年。这本该是一个值得庆祝的日子，她却在这一天投下了一颗不大不小的石子——9月22日的新作发布后，她将正式进入休业状态。
 

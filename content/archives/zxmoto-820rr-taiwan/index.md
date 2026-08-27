@@ -1,18 +1,24 @@
 ---
-title: "一台机车，照出了谁的自卑？"
-slug: "ZXMOTO-820rr-taiwan"
-aliases:
-  - /archives/2026/08/ZXMOTO-820rr-taiwan/
-date: 2026-08-21T01:05:26+08:00
-lastmod: 2026-08-21T02:09:59+08:00
+title: 一台机车，照出了谁的自卑？
+slug: zxmoto-820rr-taiwan
+date: 2026-08-21 01:05:26+08:00
+lastmod: 2026-08-21 02:09:59+08:00
 draft: false
 views: 0
-cover: "2026-08-21-ZXMOTO-820rr-taiwan-cover.jpg"
-tags: [zxmoto, 820rr, cross-strait, current-affairs, essays]
-categories: [life]
+cover: 2026-08-21-ZXMOTO-820rr-taiwan-cover.jpg
+tags:
+- zxmoto
+- 820rr
+- cross-strait
+- current-affairs
+- essays
+categories:
+- life
 author: Hansen
-description: '一辆车，拆成零件漂洋过海，再拼回去——这种"双向奔赴"挡不住。一台820RR，照出了某些人骨子里的自卑。'
+description: 一辆车，拆成零件漂洋过海，再拼回去——这种"双向奔赴"挡不住。一台820RR，照出了某些人骨子里的自卑。
 ---
+
+
 
 这两天刷手机，被一件事反复刷屏——台湾首辆"张雪机车"被查扣了。
 

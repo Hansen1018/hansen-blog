@@ -1,15 +1,20 @@
 ---
-title: "《好东西》影评：轻盈灵动的女性视角佳作"
-slug: "her-story-movie-review"
-description: ""
-date: 2025-01-22T20:53:45+08:00
-lastmod: 2026-08-18T15:25:00+08:00
+title: 《好东西》影评：轻盈灵动的女性视角佳作
+slug: her-story-movie-review
+description: 《好东西》是一部兼具温暖与幽默的爱情喜剧。邵艺辉以她标志性的女性视角切入，讲述了单亲妈妈王铁梅与邻居女孩小叶之间那段看似平淡、却让人动容的故事。影片不靠反转推进情节，而是把镜头贴近生活本身——柴米油盐、邻里往来、女性在情感与日常里那些细微的张力。看完像读了一篇结构精巧的散文：不浓烈，但留在心里。
+date: 2025-01-22 20:53:45+08:00
+lastmod: 2026-08-18 15:25:00+08:00
 draft: false
 views: 0
-cover: "1.jpg"
-tags: [movie, review]
-categories: [life]
+cover: 1.jpg
+tags:
+- movie
+- review
+categories:
+- life
 ---
+
+
 ![电影海报](2.jpg)
 
 {{< douban-card id="36154853" title="好东西" year="2024" region="中国大陆" director="邵艺辉" rating="8.9" cast="宋佳、钟楚曦、赵又廷" synopsis="失婚的中年女人王铁梅独立抚养女儿，与邻居女孩小叶成为挚友，两人以及身边一群都市女性在日常中相互扶持，各自面对生活的困境与成长的故事。" >}}

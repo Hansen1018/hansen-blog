@@ -1,16 +1,20 @@
 ---
-title: "【2024新版】在Windows系统下用Hugo创建Blog站点并部署到VPS"
-slug: "Windows-Use-Git-Deploy-Hugo-to-Vps"
-description: ""
-date: 2024-03-24T16:29:48+08:00
-lastmod: 2024-03-24T19:58:48+08:00
+title: 【2024新版】在Windows系统下用Hugo创建Blog站点并部署到VPS
+slug: windows-use-git-deploy-hugo-to-vps
+description: 💡本文来源于 hsuzo 博客，并进行更新修改。
+date: 2024-03-24 16:29:48+08:00
+lastmod: 2024-03-24 19:58:48+08:00
 draft: false
 views: 0
-cover: "gohugoio-card-base-1_huf001e7df4fd9c00c4355abac7d4ca455_242906_filter_10840867523766495988.png"
-tags: [Blog, essays]
-categories: [webdev]
-
+cover: gohugoio-card-base-1_huf001e7df4fd9c00c4355abac7d4ca455_242906_filter_10840867523766495988.png
+tags:
+- Blog
+- essays
+categories:
+- webdev
 ---
+
+
 > 💡本文来源于[ hsuzo ](https://blog.hsuzo.cn/post/tech/use-git-deploy-hugo/)博客，并进行更新修改。
 >
 
