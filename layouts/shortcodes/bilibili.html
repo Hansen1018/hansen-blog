@@ -1,0 +1,31 @@
+{{/*
+  Shortcode: bili
+  Usage:    {{< bili BV1xx411c7mH >}}
+            {{< bili BV1xx411c7mH 2 >}}            (page)
+            {{< bili BV1xx411c7mH 2 "autoplay=1" >}} (page + named)
+
+  Embeds a Bilibili video using its BV short ID (10-char, starts with "BV").
+  Only the short ID is forwarded to player.bilibili.com — tracking params
+  (share_source, vd_source, etc.) are intentionally stripped so the shortcode
+  works for any current and future BV ID without code changes.
+*/}}
+{{- $bvid := .Get 0 | default "" -}}
+{{- if not $bvid -}}
+  {{- errorf "bili shortcode: missing BV ID (usage: {{< bili BV1xx411c7mH >}})" -}}
+{{- end -}}
+{{- $p    := .Get 1 | default "1" -}}
+{{- $auto := default "0" ($.Get "autoplay") -}}
+{{- $hq   := default "1" ($.Get "highq") -}}
+<div class="bili-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;margin:1.5rem 0;border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,.08);background:#000;">
+  <iframe
+    src="https://player.bilibili.com/player.html?bvid={{ $bvid }}&p={{ $p }}&autoplay={{ $auto }}&high_quality={{ $hq }}&danmaku=0"
+    scrolling="no"
+    frameborder="0"
+    framespacing="0"
+    allowfullscreen="true"
+    allow="autoplay; fullscreen; clipboard-write"
+    loading="lazy"
+    title="Bilibili {{ $bvid }}"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;">
+  </iframe>
+</div>

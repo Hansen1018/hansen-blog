@@ -1,0 +1,60 @@
+{{/*
+  Shortcode: youtube
+  Usage:    {{< youtube dQw4w9WgXcQ >}}
+            {{< youtube dQw4w9WgXcQ 42 >}}                       (start at 42s)
+            {{< youtube "https://youtu.be/dQw4w9WgXcQ" >}}        (URL auto-extract)
+            {{< youtube "https://youtu.be/dQw4w9WgXcQ?t=42" 42 "autoplay=1" >}}
+
+  Embeds a YouTube video using its video ID (the "short ID").
+  Tracking params (si, feature, pp, ...) are intentionally stripped — only
+  the short ID is forwarded to the player, so future YT IDs work without
+  code changes. A full URL is also accepted; the ID is extracted via regex.
+
+  Length: YouTube IDs are 11 chars since ~2010, but historical posts may
+  still use 10-char IDs (e.g. e1J84WMI6k). We accept 10-12 to stay
+  backward-compatible with legacy posts.
+
+  Uses youtube-nocookie.com (privacy-enhanced): no cookies set until the
+  user actually hits play. rel=0 hides unrelated recommendations after end.
+*/}}
+{{- $input := .Get 0 | default "" -}}
+{{- if not $input -}}
+  {{- errorf "youtube shortcode: missing video ID or URL (usage: {{< youtube dQw4w9WgXcQ >}})" -}}
+{{- end -}}
+
+{{- $id := "" -}}
+{{- if (findRE "^[A-Za-z0-9_-]{10,12}$" $input) -}}
+  {{- /* Already a bare 10-12 char ID — most common case */ -}}
+  {{- $id = $input -}}
+{{- else -}}
+  {{- /* Try to extract from common YT URL shapes:
+         watch?v=, /shorts/, /embed/, youtu.be/, /v/ */ -}}
+  {{- $urlMatches := findRE `(?:v=|/shorts/|/embed/|youtu\.be/|/v/)([A-Za-z0-9_-]{10,12})` $input -}}
+  {{- if $urlMatches -}}
+    {{- $idMatches := findRE `[A-Za-z0-9_-]{10,12}` (index $urlMatches 0) -}}
+    {{- if $idMatches -}}
+      {{- $id = index $idMatches 0 -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if not $id -}}
+  {{- errorf "youtube shortcode: could not extract video ID from %q" $input -}}
+{{- end -}}
+
+{{- $start := .Get 1 | default "0" -}}
+{{- $auto  := default "0" ($.Get "autoplay") -}}
+
+<div class="youtube-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;margin:1.5rem 0;border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,.08);background:#000;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/{{ $id }}?start={{ $start }}&autoplay={{ $auto }}&rel=0"
+    scrolling="no"
+    frameborder="0"
+    framespacing="0"
+    allowfullscreen="true"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    loading="lazy"
+    title="YouTube {{ $id }}"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;">
+  </iframe>
+</div>
