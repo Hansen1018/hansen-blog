@@ -45,9 +45,10 @@ Hi~👋
 - ✈️ **Telegram**: [@Hansen1018](https://t.me/Hansen1018)
 - 📧 **Email**: <hansendong1018@gmail.com>
 
-如果博客对你有帮助，欢迎[**请我喝杯咖啡**](https://ko-fi.com/K3N525V491) ☕：
+## 支持我
 
-<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
-<script type='text/javascript'>kofiwidget2.init('请博主喝杯咖啡', '#72a4f2', 'K3N525V491');kofiwidget2.draw();</script>
+如果博客对你有帮助，欢迎支持我 ☕：
+
+{{< sponsor kofi="K3N525V491" >}}
 
 > 保持好奇，持续输出。欢迎来到这里。

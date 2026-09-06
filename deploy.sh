@@ -13,6 +13,22 @@ STAGING_DIR="$BLOG_DIR/public.new"
 
 cd "$BLOG_DIR"
 
+
+# Sponsor QR images (WeChat / Alipay) are .gitignored private payment
+# data. They live in static/images/sponsor/ locally for dev/build but are
+# never committed. Hugo copies them to public/images/sponsor/ during build,
+# and the rsync below deploys them to /var/www/blog/public/ like any other
+# static asset — production has them, GitHub does not.
+echo "[deploy] git pull (blog)..."
+git pull --ff-only
+
+# Theme lives at themes/hugo-theme-lumenveil (symlinked). Resolve and pull.
+THEME_DIR="$(readlink -f themes/hugo-theme-lumenveil)"
+if [ -d "$THEME_DIR/.git" ]; then
+  echo "[deploy] git pull (theme)..."
+  (cd "$THEME_DIR" && git pull --ff-only)
+fi
+
 echo "[deploy] hugo build (to staging $STAGING_DIR)..."
 rm -rf "$STAGING_DIR"
 hugo --minify --destination "$STAGING_DIR" >/dev/null
