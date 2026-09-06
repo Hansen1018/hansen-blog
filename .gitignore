@@ -22,3 +22,10 @@
 *~
 .idea/
 .vscode/
+
+# Sponsor QRs (WeChat / Alipay) — private payment data, never push to GitHub.
+# These live in static/images/sponsor/ locally for dev/build, but must NOT be
+# tracked. deploy.sh copies them from local static/ → public/ on the server
+# side, so production has them without ever touching the public repo.
+static/images/sponsor/*.png
+!static/images/sponsor/.gitkeep
