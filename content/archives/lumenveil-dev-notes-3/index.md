@@ -3,7 +3,7 @@ title: 落子无悔 — Hugo 主题—Lumenveil开发手记 (Part 3)
 slug: lumenveil-dev-notes-3
 date: 2026-08-19 01:03:00+08:00
 lastmod: 2026-08-19 15:41:34+08:00
-draft: true
+draft: false
 description: v0.1.7 到 v0.1.9 的几天——gallery 五版演化、EXIF 旋转、单向 like 按钮、Chroma vs Prism、douban-card 死胡同、图片 caption 用 .Title 的发现。
 cover: images/lumenveil-dev-notes-3-cover.png
 cover_caption: v0.1.7 → v0.1.9 · 五版 gallery · 单向 like · 落子无悔

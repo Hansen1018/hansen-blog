@@ -1,4 +1,4 @@
-<article class="post-card">
+<article class="post-card" data-year="{{ .Date.Format "2006" }}">
   <a class="post-card__visual" href="{{ .RelPermalink }}" aria-label="阅读《{{ .LinkTitle }}》">
     {{ $cover := "" }}
     {{ with .Params.cover }}

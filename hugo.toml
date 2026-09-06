@@ -36,6 +36,9 @@ enableRobotsTXT = true
   notAlternative = true
 
 [markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
   [markup.highlight]
     noClasses = false
     guessSyntax = true
