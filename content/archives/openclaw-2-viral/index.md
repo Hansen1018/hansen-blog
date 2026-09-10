@@ -18,6 +18,7 @@ author: Hansen
 description: GitHub 史上最快增长的开源项目在 5 天里完成了从「Peter 的 WhatsApp bot 玩具」到「AI 时代浏览器」的身份跃迁。933 个贡献者、16000+ PR、5 个头部厂商集体站台。这篇还附了我自己跑 8.1 的踩坑笔记。
 ---
 
+> [!NOTE]
 > 三信号源：[OpenClaw 官方博客《OpenClaw 2.0, Accidentally》](https://openclaw.ai/blog/openclaw-2-accidentally) | [GitHub 官方 roundtable](https://github.com/orgs/openclaw) 8/27 那场 | Lex Fridman #491。事件窗口 2026-08-27 至 09-01。
 
 5 天前，OpenClaw 还是 GitHub 官方视频里 Peter 自嘲的「WhatsApp bot 玩具」。5 天后，OpenClaw 2.0 带着 933 位贡献者、16,000+ PR、Google 站台、第三方把生产环境迁过来当 case study——而 Peter 本人此刻已经坐在 OpenAI 工位上，看着自己 2025-11 在马拉喀什搓出的 WhatsApp Relay，被 933 人接力推到这一步。
