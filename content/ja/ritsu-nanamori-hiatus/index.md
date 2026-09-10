@@ -3,7 +3,7 @@ title: "七ツ森りり休業によせて――すべての旅路に帰りがあ
 slug: "ritsu-nanamori-hiatus-ja"
 url: "/archives/2026/08/ritsu-nanamori-hiatus/ja/"
 date: 2026-08-26T21:03:37+08:00
-lastmod: 2026-08-26T23:03:06+08:00
+lastmod: 2026-09-11T03:55:00+08:00
 draft: false
 views: 0
 cover: "cover.jpg"
@@ -64,9 +64,8 @@ description: '2026年8月19日、七ツ森りりがデビューから丸六年�
 *画像出典：[七ツ森りりの X](https://x.com/riri_nntmr)*
 
 
+> [!TIP]
 > 🌐 **中文版**：[写在七ツ森りり休业之后：愿每一段旅程都有归期](/archives/2026/08/ritsu-nanamori-hiatus/)
-
----
 
 > [!NOTE]
 > 注：七ツ森りり本人は今回の決断を「引退」ではなく「休業」と定義しています。本稿はそれを踏まえた上で、彼女の選択と言葉を尊重し、記念と祝福の意を込めて執筆しました。

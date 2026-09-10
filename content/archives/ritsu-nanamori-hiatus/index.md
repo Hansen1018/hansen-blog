@@ -67,7 +67,6 @@ description: 2026年8月19日，七ツ森りり出道六周年。她在这一天
 
 *图片来源：[七ツ森りりの X](https://x.com/riri_nntmr)*
 
----
 
 > [!TIP]
 > 🌐 **日本語版**：[七ツ森りり休業によせて――すべての旅路に帰りがあるように](/archives/2026/08/ritsu-nanamori-hiatus/ja/)
