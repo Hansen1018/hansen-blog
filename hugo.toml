@@ -7,7 +7,7 @@ defaultContentLanguage = 'zh-cn'
 [languages]
   [languages.zh-cn]
     locale = 'zh-cn'
-    languageName = '中文'
+    label = '中文'
     weight = 1
     hasCJKLanguage = true
 enableRobotsTXT = true
