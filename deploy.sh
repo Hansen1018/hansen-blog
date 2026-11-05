@@ -33,8 +33,24 @@ echo "[deploy] hugo build (to staging $STAGING_DIR)..."
 rm -rf "$STAGING_DIR"
 hugo --minify --destination "$STAGING_DIR" >/dev/null
 
-echo "[deploy] rsync --delete staging/ -> public/..."
-rsync -av --delete "$STAGING_DIR/" public/
+echo "[deploy] sync staging/ -> public/ (mirror)..."
+# rsync is preferred. The sandbox ships rsync via /usr/local/bin/rsync, a wrapper
+# pointing at a private payload under /workspace/.local/rsync/ — that payload is
+# not guaranteed to survive a sandbox reset, and when it is missing the wrapper
+# exits non-zero and kills this script (set -e). Fall back to cp -a + prune,
+# which is semantically the same mirror (rsync --delete equivalent).
+if command -v rsync >/dev/null 2>&1 && rsync --version >/dev/null 2>&1; then
+  rsync -av --delete "$STAGING_DIR/" public/
+else
+  echo "[deploy] rsync unavailable/broken -> fallback: cp -a + prune stale files"
+  cp -a "$STAGING_DIR/." public/
+  # delete files/symlinks in public/ that are absent from staging/ (--delete)
+  while IFS= read -r f; do
+    [ -n "$f" ] && rm -f "public/$f"
+  done < <(comm -23       <(cd public && find . \( -type f -o -type l \) -print | sort)       <(cd "$STAGING_DIR" && find . \( -type f -o -type l \) -print | sort))
+  # then drop directories left empty by the prune
+  find public -mindepth 1 -type d -empty -delete
+fi
 
 echo "[deploy] cleanup staging..."
 rm -rf "$STAGING_DIR"
